@@ -9,7 +9,7 @@ import requests
 import json
 import os
 import numpy as np
-with open(r'C:\Users\tsabitov\Desktop\json_compare\input.json') as f:
+with open(r"D:\WorkingDir\json43\input.json") as f:
     data = json.load(f)
 
 
@@ -49,7 +49,7 @@ for j in range (0, len (data['features'])):
 #dictOutput is the reference list
 #inputList is the loaded list from the clean lib
 
-dirBchar = r"D:\ClientData\Library\BasinChar"
+dirBchar = r"D:\WorkingDir\json43\BasinChar"
 dirFiles = os.listdir(dirBchar)
 
 dictOut2 = []
